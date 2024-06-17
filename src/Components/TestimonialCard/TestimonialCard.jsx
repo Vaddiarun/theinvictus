@@ -6,13 +6,13 @@ export default function TestimonialCard({ item }) {
     <div className="testi-card">
       <div className="profile-bio">
         <img src={item.imageUrl} alt="image" className="testi-image" />
-        <div>
+        <div className="dis">
           <h2>{item.name}</h2>
-          <p>{item.university}</p>
+          <p className="univer">{item.university}</p>
         </div>
       </div>
       <div>
-        <p>{item.content}</p>
+        <p className="testi-paragrapg">{item.content}</p>
       </div>
     </div>
   );

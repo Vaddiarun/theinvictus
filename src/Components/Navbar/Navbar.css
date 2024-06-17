@@ -12,16 +12,14 @@
         padding: 15px 30px;
         font-weight: 100px;
         font-size: 15px;
-        font-family:sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     }
     .social{
         display: none;
-        
     }
     .social-display{
         position: relative;
-        
     }
     .social-display:hover
       .social{
@@ -33,18 +31,17 @@
         color: #ffffff;
         background-color: black;
         border-radius: 20px;
-        right: 3px;
         gap: 20px;
-        /* left: 0; */
-        top: 50px;
+        top: 68px;
         right: 0px;
+        padding: 20px;
+        margin-right: -20px;
     }
     .flex-icons{
         display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 6px;
+        gap: 10px;
 
     }
     .nav{

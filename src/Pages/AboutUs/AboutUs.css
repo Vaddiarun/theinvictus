@@ -1,41 +1,78 @@
 
 .aboutus-image-page {
-    background-image: url("https://www.blogtyrant.com/wp-content/uploads/2011/02/best-about-us-pages.png");
+    background-image: url("https://ifs.org.uk/sites/default/files/styles/full_height_banner/public/2023-05/woman-working-at-dining-table_0.jpg?itok=-dWSAbHY");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+   
+    height: 70vh;
     min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items:start;
-  color: rgb(252, 127, 69);
+color: black;
    justify-content: center;
-   font-size: 20px;
+   font-size: 27px;
  padding-left: 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
 }
+.about-text-for-pragraph{
+    font-size: 28px;
+    line-height: 50px;
+    font-weight: 600;
+    color: rgb(20, 21, 20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about-text{
+    font-size: 65px;
+    line-height: 50px;
+    font-weight: 600;
+    color: rgb(20, 21, 20);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 .paragraph-text{
-    background-color: aliceblue;
-      display: flex;
+      /* display: flex;
       flex-direction: column;
       justify-content: center;
+      line-height: 50px;
       align-items: center;
       padding: 20px;
-      font-size: 15px;
+      font-size: 28px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 50px;
+        align-items: center;
+        padding: 20px;
+        font-size: 28px;
+        font-family: 'Segoe UI',
+            Tahoma,
+            Geneva,
+            Verdana,
+            sans-serif;
 }
 .text-heading{
-   background-color: antiquewhite;
     font-size: 40px;
     height: 100px;
     padding-top: 50px;
+    text-align: start;
+    margin-left: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .text-heading1{
-background-color: rgba(218, 229, 238, 0.448);
     font-size: 50px;
         height: 100px;
         padding-top: 30px;
-        text-align: center;
+        text-align:start;
+        margin-left: 10px;
+}
+.total-cont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .pg-line{
     background-color: rgba(255, 119, 0, 0.893);
@@ -44,14 +81,18 @@ background-color: rgba(218, 229, 238, 0.448);
 }
 .founders-card{
     width: 100%;
-    mix-height:100vh;
-    background-color:rgb(85, 69, 69);
-    color: aliceblue;
+    background-color:#ffffff;
+    color: black;
+ margin-top: 20px;
+
 }
 .founder-image-sizing{
-    width: 350px;
+    background-color:rgb(43, 56, 32);
+    width: 480px;
     height: 400px;
     margin-right: 40px;
+   border-radius: 290px;
+   padding: 10px;
 }
 .founders-card-flex{
     display: flex;
@@ -60,28 +101,95 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 border-bottom: none;
+margin:20px;
+margin-top: 60px;
    gap: 10px;
    padding: 20px;
-   background-color: aliceblue;
    margin-bottom: 10px;
-   border-radius: 120px;
-border: 2px solid rgba(255, 183, 0, 0.755);
-   color:darkcyan;
+   border-radius: 10px;
+   color:rgb(26, 26, 26);
    padding: 30px;
+   box-shadow: 0px 10px 10px gray;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .paragraph-content-size{
-    font-size: 20px;
+    line-height: 35px;
+    font-size: 28px;
 }
+
 .fonder-line-coloring{
-    background-color: rgb(255, 123, 0);
+    background-color:orangered;
     width: 50px;
     height: 10px;
     border-radius: 20px;
     margin-left: 10px;
+    margin-bottom: 29px;
 }
 .founder-heading{
     font-size: 30px;
-    font-style:Roboton;
-    margin-top: 10px;
+    padding-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.founder-name{
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.line-footer{
+background-color: orangered;
+    width: 50px;
+    height: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 29px;
+}  
+
+.dream-big-card{
+    box-shadow: 0px 10px  10px gray;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+}
+.vision-card{
+    box-shadow: 0px 10px 10px gray;
+        margin-bottom: 20px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 12px;
+}
+.mission-card{
+    box-shadow: 0px 10px 10px gray;
+        margin-bottom: 20px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 12px;
+}
+.motto-card{
+    box-shadow: 0px 10px 10px gray;
+        margin-bottom: 20px;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 12px;
+}
+
+@media(max-width:1000px){
+    .founders-card-flex{
+          display: flex;
+          flex-direction: column;
+         align-items: center;
+         justify-content: center;
+    } 
+        .founder-image-sizing {
+            background-color: rgb(43, 56, 32);
+            width: 400px;
+            height: 400px;
+            margin-right: 40px;
+            border-radius: 390px;
+            padding: 10px;
+        }
 }

@@ -1,7 +1,7 @@
 .mobile-version{
    display: flex;
    padding: 10px;
-   background-color: aliceblue;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex-icon-and-mail{
@@ -33,8 +33,13 @@
     flex-direction:column;
     justify-content:end;
     align-items:center;
+    color: aliceblue;
     font-size: 40px;
     text-decoration: none;
+}
+
+.list-flex1:hover{
+  text-decoration: underline;
 }
 
 .btn{
@@ -42,14 +47,19 @@
 }
 .toogle-itemflex{
     display: flex;
-    flex-direction: column;
-    align-items:end;
-    justify-content:end;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    background-color: rgb(40, 38, 38);
+
 }
 .btn-aliment{
     margin-right: 20px;
 
 }
+        .cardit {
+          align-self: flex-start;
+        }
 @media(min-width:1000px) {
     .mobile-version{
         display:none;
@@ -57,13 +67,11 @@
      }
      .laptopversion{
         display:flex;
-        background-color: aliceblue;
-        background-color: aliceblue;
         height: 130px;
         padding: 70px; 
         font-size: 7px;
         font-weight: lighter;
-        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .imgsizing-laptop{
         width: 350px;
@@ -81,7 +89,6 @@
         align-items: end;
        }
     .alining-items{
-        border: 2px solid orange;
         display: flex;
         flex-direction:row;
         justify-content:space-between;
@@ -92,6 +99,5 @@
     .text-sizing{
         font-size: 20px;
         text-decoration: none;
-        
     }    
 }

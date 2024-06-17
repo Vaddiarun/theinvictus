@@ -18,8 +18,6 @@ export default function Traning() {
             <p className="paragraph-height">
               In today’s dynamic corporate world, many students intend to pursue
               additional education abroad in order to obtain a global footprint
-              for their profession. Students must not only have excellent GPAs,
-              ambitious course loads, and well-rounded extracurricular
               activities to stand out in the application pool, but they must
               also have good college-entrance exam results (GRE, GMAT, SAT,
               IELTS, TOEFL SCORES).
@@ -34,11 +32,9 @@ export default function Traning() {
             <p className="paragraph-height">
               Our training follows a simple yet comprehensive style. During the
               first session, students complete a full-length diagnostic test on
-              our portal. This enables us to better understand each student’s
-              individual potential. Our professional trainers from IITs and NITs
-              teach our students everything they need to know to ace these tests
-              in the succeeding lessons. We value commitment over natural skill
-              as the path to success.
+              our portal.succeeding lessons. We value commitment over natural
+              skill as the path to success.includes a thorough review of all
+              mathematical and verbal subjects tested in these exams
             </p>
           </div>
           <div className="flex-image-and-paragraph">
@@ -53,9 +49,6 @@ export default function Traning() {
               outlining specific strengths and shortcomings. One of the reasons
               for our program’s success is the specific attention we give each
               student. The focus of our classes is equally vital. Our technique
-              includes a thorough review of all mathematical and verbal subjects
-              tested in these exams, in addition to the student-written essays.
-              However, we go beyond that by teaching
             </p>
           </div>
         </div>

@@ -12,9 +12,36 @@
     font-size: 30px;
 }
 .UniverisityButton{
-    width: 180px;
-    height: 60px;
-    background-color: rgb(35, 55, 207);
-    color: aliceblue;
-    border-radius: 20px;
+    width: 900px;
+        height: 60px;
+        background-color: rgb(6 87 173);
+        color: aliceblue;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 30px;
+}
+.course {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.inputsize:focus {
+    outline: none;
+
+}
+
+.cat-sel {
+    height: 50px;
+    width: 25vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+@media (min-width: 992px) {
+    .UniverisityButton{
+        max-width: 300px;
+    }
 }

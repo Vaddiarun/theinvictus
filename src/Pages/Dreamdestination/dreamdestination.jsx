@@ -16,7 +16,7 @@ export default function Dreamdestination() {
         <div className="cards-flex-fro-travel-card">
           <div className="main-cont">
             <div className="background-cont background1">
-              <h1>Australa</h1>
+              <h1>Australia</h1>
             </div>
             <div className="hovering-container">
               <h1>Study In Australia</h1>

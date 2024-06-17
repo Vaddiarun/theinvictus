@@ -9,8 +9,6 @@ import Traning from "../Traning/Traning";
 import Footer from "../../Components/Footer/Footer";
 import Dreamdestination from "../Dreamdestination/dreamdestination";
 
-import Contact from "../Contact/Contact";
-
 export default function Home() {
   const [index, setindex] = useState(0);
   const [category, setcategory] = useState("Courses");
@@ -19,12 +17,13 @@ export default function Home() {
     {
       title: "Study abroud with Invictus!!",
       buttonName: "Contact Us",
-      path: "/contactUs",
+      path: "/contact-us",
       className: "btn-color",
     },
     {
       title: "Our Services",
       buttonName: "read more",
+      path: "/Services",
       className: "btn-color-another-ones",
     },
     {
@@ -76,7 +75,7 @@ export default function Home() {
       {/* filteringpage for laptoversion */}
       <div className="alinecard">
         <div className="cardHomepage">
-          <section>
+          <section className="cards-keys-buttons">
             <button
               className={category === "Courses" ? "active" : "cardbutton"}
               onClick={() => setcategory("Courses")}
@@ -100,12 +99,6 @@ export default function Home() {
               onClick={() => setcategory("Events")}
             >
               Events
-            </button>
-            <button
-              className={category === "Guide me" ? "active" : "cardbutton"}
-              onClick={() => setcategory("Guide me")}
-            >
-              Guide me
             </button>
           </section>
           {category === "Courses" && <CoursesComp />}
@@ -135,15 +128,11 @@ export default function Home() {
             <h2 class="card__title">
               <a href="#">DREAM BIG, FLY HIGH WITH INVICTUS!</a>
             </h2>
-            <div class="card__subtitle">
+            <p class="card__subtitle">
               At Invictus, we believe in the power of pursuing a global
               education and opening numerous doors for students. With diverse
-              course options, the world becomes an oyster for students who want
-              to expand their horizons. As young Indians today continue to
-              emerge as leaders in different arenas, we take pride in guiding
-              future leaders to choose and pursue their higher education at some
-              of the best universities in the world
-            </div>
+              course options, the world becomes an oyster for students
+            </p>
             <p class="card__description"></p>
           </div>
           <footer class="card__footer">
@@ -197,8 +186,6 @@ export default function Home() {
               Our motto, “Dream Big, Fly High,” encapsulates our belief that
               every student has the potential to achieve great things. We are
               here to help students realize their dreams and reach for the
-              stars. At Invictus, we believe that with hard work, dedication,
-              and the right guidance, anything is possible.
             </div>
             <p class="card__description"></p>
           </div>
@@ -245,7 +232,7 @@ export default function Home() {
         </div>
       </div>
       <div className="cardHomepage-mobile">
-        <section>
+        <div className="category-buttons">
           <button
             className={category === "Courses" ? "active" : "cardbutton"}
             onClick={() => setcategory("Courses")}
@@ -270,13 +257,7 @@ export default function Home() {
           >
             Events
           </button>
-          <button
-            className={category === "Guide me" ? "active" : "cardbutton"}
-            onClick={() => setcategory("Guide me")}
-          >
-            Guide me
-          </button>
-        </section>
+        </div>
         {category === "Courses" && <CoursesComp />}
         {category === "Scholarships" && <Scholarship />}
         {category === "Univerisity" && <Univerisity />}
@@ -304,9 +285,7 @@ export default function Home() {
             and opening numerous doors for students. With diverse course
             options, the world becomes an oyster for students who want to expand
             their horizons. As young Indians today continue to emerge as leaders
-            in different arenas, we take pride in guiding future leaders to
-            choose and pursue their higher education at some of the best
-            universities in the world
+            in different arenas,
           </p>
         </div>
         <div className="card-mobile">

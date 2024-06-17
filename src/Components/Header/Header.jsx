@@ -65,9 +65,6 @@ export default function Header() {
             />
           </Link>
           <div className="btn">
-            <Link to="/Login">
-              {/* <button className='profile btn-aliment'> <CgProfile /> </button> */}
-            </Link>
             <button className="" onClick={handleToogle}>
               {" "}
               <RxHamburgerMenu />{" "}
@@ -75,15 +72,12 @@ export default function Header() {
           </div>
         </div>
         <div className="toogle-itemflex">
-          {Toogle && (
-            <div>
-              {navarray.map((each, ind) => (
-                <Link className="list-flex1" to={each.path} key={ind}>
-                  {each.title}
-                </Link>
-              ))}
-            </div>
-          )}
+          {Toogle &&
+            navarray.map((each, ind) => (
+              <Link className="list-flex1" to={each.path} key={ind}>
+                {each.title}
+              </Link>
+            ))}
         </div>
       </div>
       {/* mobile version end here */}
